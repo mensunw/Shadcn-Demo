@@ -23,6 +23,7 @@ import { Label } from "@/components/ui/label"
 export default function Home() {
   return (
     <>
+      {/* card component */}
       <Card className="m-auto w-1/2 mt-8 mb-8">
         <CardHeader>
           <CardTitle>Card Title</CardTitle>
@@ -36,6 +37,7 @@ export default function Home() {
         </CardFooter>
       </Card>
 
+      {/* diaglog component */}
       <div className="m-auto w-1/2">
         <Dialog>
           <DialogTrigger asChild>
